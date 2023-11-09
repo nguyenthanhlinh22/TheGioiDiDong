@@ -1,0 +1,266 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-6.0.0-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+ 
+    <title>THế giới di động</title>
+    <style>
+        .feed-form {
+        margin-top: 36px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+      
+      .feed-form input {
+        height: 54px;
+        border-radius: 5px;
+        background: white;
+        margin-bottom: 15px;
+        border: none;
+        padding: 0 20px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #4B4B4B;
+      }
+      
+      .button_submit:hover, .feed-form input:hover {
+        transform: scale(1.009);
+        box-shadow: 0px 0px 3px 0px #212529;
+      }
+      
+      .button_submit {
+        width: 100%;
+        height: 54px;
+        font-size: 14px;
+        color: white;
+        background: red;
+        border-radius: 5px;
+        border: none;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      #modau{
+           
+           height: 50px;
+           background-color:rgb(194, 199, 65);
+           border: 2px solid #CFCFCF;
+           margin-left: 0px;
+           border-radius: 10px;
+        }
+    
+        #modau h1{
+            margin: 0px;
+            text-align: center;
+            color: white;
+        }
+        #modau h1:hover{
+            color:yellow;
+        }
+        .section_form{
+            padding-left: 550px ;
+        }
+            
+      
+      
+      </style>
+</head>
+<body>
+    <header>
+        <img  src="asset/img/img.webp" alt="" height="47.81">
+    </header>
+
+    <nav>
+      <div class="container">
+        <ul>
+            <li><a href=""><img style="width: 150px;" src="./asset/img/754ec119851da810285fbc07c15cee83.jpg" alt=""></a></li>
+            <li id="address-form"><a href="#">Đà Nẵng<i class="fa-solid fa-sort-down"></i></a>
+              <div class="address-form">
+                <div class="address-form-content">
+                  <h2>
+                    Chọn Địa chỉ nhận hàng <span id="address-close"> X Đóng</span>
+                  </h2>
+  
+                  <form action="">
+                    <p id="title">Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                    <select name="" id="">
+                      <option value="#">chọn địa điểm</option>
+                      <option value="#">Đà Nẵng</option>
+                      <option value="#">Quảng Nam</option>
+                      <option value="#">Bình Dương</option>
+                      
+                    </select>
+                    <select name="" id="">
+                      <option value="#">chọn quận huyện</option>
+                      <option value="#">Liên Chiểu</option>
+                      <option value="#">Hải Châu</option>
+                      <option value="#">Ngủ Hành Sơn</option>
+                      <option value="#">Thêm......</option>
+                      
+                    </select>
+                    <select name="" id="">
+                      <option value="#">chọn thường xá</option>
+                      <option value="#">Hòa Khánh Nam</option>
+                      <option value="#">Hòa Khánh Bắc</option>
+                      
+                    </select>
+                    <input type="text" placeholder="số nhà tên đường">
+                    <button>xác nhận </button>
+                  </form>
+                </div>
+              </div> 
+            </li>
+           
+
+            <li><input class="input" type="text" placeholder="Bạn tìm gì....."></li>
+          
+            <li id="shop"><a href="./COFFEE CỦA NGUYÊN/COFFEE/oder.html" target="page"><button ><i class="fa-solid fa-cart-shopping"></i>giỏ hàng</button>
+
+            </a>
+            </li>
+            <li><a href="">Lịch sử <br> đơn hàng</a></li>
+            <li><a href=""><span class="btn-container"><span class="btn-top"></span></span> Mua thẻ nạp ngay!</a></li>
+            <li><a href="">24h công nghệ</a></li>
+            <li><a href="">Hỏi đáp</a></li>
+            <li><a href="">Game app</a></li>
+        </ul>
+      </div>
+    </nav>
+
+   
+    <section class="menu-bar">
+      <div class="container-sc">
+        <div class="menu-bar-content">
+          <ul>
+            <li><a href=""><i class="ti-mobile"></i>Điện thoại</a></li>
+            <li><a href="index.html">Trang chủ </a></li>
+            <li><a href="">Tablet</a></li>
+            <li><a href="">Phụ Kiện</a>
+                <div class="submenu">
+                  <ul>
+                    <li><a href="">tai nghe </a></li>
+                    <li><a href="">AIR </a></li>
+                    <li><a href="">chân sạc</a></li>
+                    <li><a href="">Phụ kiện kèm</a></li>
+                    <li><a href="">Máy ảnh </a></li>
+                    <li><a href="">len </a></li>
+                  </ul>
+
+                </div>
+            
+            
+            
+            </li>
+            <li><a href="">Smarrtwwatch</a></li>
+            <li><a href="">Điện thoại</a></li>
+            <li><a href="gioithieu.html">Máy cũ</a></li>
+            <!-- begin: đăng nhập  -->
+            <li id="address-form1"><a href="#"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng nhập</button> </a>
+              <div id="id01" class="modal">
+  
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <h2>Đăng nhập</h2>
+                  </div>
+              
+                  <div class="container">
+                    <label for="uname"><b>Tên đăng nhập</b></label>
+                    <input type="text" placeholder="nhập tên đăng nhập" name="uname" required>
+              
+                    <label for="psw"><b>Mật khẩu</b></label>
+                    <input type="password" placeholder="Nhớ Thì nhập" name="psw" required>
+                      
+                    <button type="submit" style="height: 40px; background-color: aliceblue;">đăng nhập</button>
+                    <label>
+                      <input  type="checkbox" checked="checked" name="remember"><span style="color: black;">nhớ mật khẩu </span>
+                    </label>
+                  </div>
+              
+                  <div class="container" style="background-color:#f4f4f4">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
+              
+            
+            <!-- end: đăng nhập  -->
+            <li><a href="">Yêu Ai<3</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <marquee class="maquy" >
+      xin chào bạn đến với thế giới di động nơi có những chiếc điện thoại cũng gọi là bình thường
+    </marquee>
+
+    
+</head>
+<body>
+  <div id="modau">
+    <h1>Góp ý </h1>
+</div>
+    <section class="section_form">
+        <form id="consultation-form" class="feed-form" action="#">
+          <input required="" placeholder="Tên" type="text">
+          <input name="SỐ ĐIỆN THOẠI" required="" placeholder="Phone number">
+          <input name="email" required="" placeholder="E-mail" type="email">
+        </form>
+        <form id="consultation-form" class="feed-form" action="#">
+          <input required="" placeholder="Góp Ý" type="text">                  
+          <button class="button_submit">Gửi</button>
+        </form>
+      </section>
+   
+      
+    
+</body>
+<footer>
+    <section class="footer" id="footer">
+      <div class="container">
+        <div class="footer-box">
+          <h3>Về Chúng Tôi</h3>
+          <p>hãy mua điện thoại một cách thông minh .</p>
+          <p>tôi sẽ bán  cho bạn những chiếc điện thoại xịn nhất hãy đến với thế giới di động </p>
+        </div>
+  
+  
+  
+        <div class="footer-box">
+          <h3>Tin Mới</h3>
+          <p>Luôn cập nhật những thông tin mới nhất của chúng tôi</p>
+  
+  
+          <form>
+            <input type="email" name="email" placeholder="enter email">
+            <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+          </form>
+        </div>
+  
+        <div class="footer-box">
+          <h3>Theo Dõi Chúng Tôi</h3>
+          <p>Chúng ta hãy hòa đồng</p>
+  
+          <div>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+  
+  
+      </div>
+    </section>
+  </footer>
+  
+</html>
